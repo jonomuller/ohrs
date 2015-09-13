@@ -107,7 +107,7 @@ ul.navbar-nav > li {
 }
 
 #constitution-body {
-  padding-bottom: 40%;
+  padding-bottom: 31%;
   line-height: 25px;
 }
 
@@ -157,4 +157,16 @@ ul.navbar-nav > li {
     top: 70px;
     width: 100px;
   }
+}
+
+.col-lg-4 {
+  border: 1px solid black;
+}
+
+.col-lg-8 {
+  border: 1px solid black;
+}
+
+.col-lg-12 {
+  border: 1px solid black;
 }

@@ -21,22 +21,22 @@ $(function(){ // document ready
   }
 
 });
-
-/* smooth scrolling sections */
+/*
+// Smooth scrolling
 $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - 50
-        }, 1000);
+          scrollTop: target.offset().top - 100
+        }, 300);
         return false;
       }
     }
 });
 
-
+*/
 
 
 
@@ -58,7 +58,7 @@ menuItems.click(function(e){
   var href = $(this).attr("href"),
       offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
   $('html, body').stop().animate({
-      scrollTop: offsetTop
+      scrollTop: offsetTop + 250
   }, 300);
   e.preventDefault();
 });
@@ -86,9 +86,8 @@ $(window).scroll(function(){
    }
 });
 
-
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  $('[href=#' + location.pathname.split("/")[1] + '"]').addClass('active');
 });
 
 
