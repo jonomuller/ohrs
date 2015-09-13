@@ -107,7 +107,7 @@ ul.navbar-nav > li {
 }
 
 #constitution-body {
-  padding-bottom: 31%;
+  padding-bottom: 40%;
   line-height: 25px;
 }
 
@@ -159,14 +159,16 @@ ul.navbar-nav > li {
   }
 }
 
-.col-lg-4 {
-  border: 1px solid black;
+img.profile-pic {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ddd;
 }
 
-.col-lg-8 {
-  border: 1px solid black;
+.members-body {
+  padding: 25px 0 25px 0;
 }
 
-.col-lg-12 {
-  border: 1px solid black;
+.members-body h3 {
+  margin-top: 10px;
 }
