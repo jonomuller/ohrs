@@ -9,12 +9,10 @@
     <div class="container">
 
       <div class="row members-body">
-        <div class="col-lg-3 col-xs-3">
-          <div class="profile-pic">
-            <img class="img-circle profile-pic" src="images/steve-profile.jpg">
-          </div>
+        <div class="col-md-3 col-xs-12">
+          <img class="img-circle profile-pic" src="images/steve-profile.jpg">
         </div>
-        <div class="col-lg-9 col-xs-3">
+        <div class="col-md-9 col-xs-12">
           <h3>Steve Spisto</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
           elit. Aenean commodo ligula eget dolor. Aenean massa
@@ -38,12 +36,12 @@
       </div>
 
       <div class="row members-body">
-        <div class="col-lg-3 col-xs-3">
+        <div class="col-md-3 col-xs-12">
           <div class="profile-pic">
             <img class="img-circle profile-pic" src="images/steve.jpg">
           </div>
         </div>
-        <div class="col-lg-9 col-xs-3">
+        <div class="col-md-9 col-xs-12">
           <h3>Flora Scorer</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
           elit. Aenean commodo ligula eget dolor. Aenean massa
@@ -67,12 +65,12 @@
       </div>
 
       <div class="row members-body">
-        <div class="col-lg-3 col-xs-3">
+        <div class="col-md-3 col-xs-12">
           <div class="profile-pic">
             <img class="img-circle profile-pic" src="images/fox.png">
           </div>
         </div>
-        <div class="col-lg-9 col-xs-3">
+        <div class="col-md-9 col-xs-12">
           <h3>Firstname Lastname</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
           elit. Aenean commodo ligula eget dolor. Aenean massa
