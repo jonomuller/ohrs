@@ -7,13 +7,27 @@
   position: relative;
 }
 
+#left-logo {
+  float: left;
+  margin-left: 10%;
+  height: 60%;
+  top: 20%;
+}
+
+#right-logo {
+  float: right;
+  margin-right: 10%;
+  height: 30%;
+  top: 35%;
+}
+
 .navbar-default {
   background-color: #fff;
 }
 
 .navbar-static-top {
   border: 0;
-  margin-left: 10%;
+  margin: 0 10% 20px 10%;
   width: 80%;
   /*border-radius: 5px;*/
   /*border-bottom: 5px solid #6699CC;*/
@@ -27,7 +41,7 @@
   margin: 30px 10% 0 10%;
   border: 0;
   border-radius: 0;
-  border-top: 5px solid #6699CC;
+  border-top: 8px solid #6699CC;
 }
 
 .navbar-brand > img {
@@ -49,7 +63,7 @@
   display: table-cell;
   text-align: center;
   float: none;
-  border-bottom: 5px solid #6699CC;
+  border-bottom: 8px solid #6699CC;
 }
 
 .navbar-nav > li > a {
@@ -64,7 +78,7 @@
 }
 
 .navbar-nav > li.active {
-  border-bottom: 5px solid #002147;
+  border-bottom: 8px solid #002147;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -122,12 +136,12 @@ html, body {
 }
 
 #sidebar li {
-  border-left: 5px solid #6699CC;
+  border-left: 8px solid #6699CC;
   margin: 0;
 }
 
 #sidebar li.active {
-  border-left: 5px solid #002147;
+  border-left: 8px solid #002147;
 }
 
 #sidebar li > a {

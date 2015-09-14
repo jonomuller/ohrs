@@ -1,10 +1,12 @@
 <header>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 
   <div id="banner">
-    <a href="index.php"><img alt="logo" src="images/fox.png" style="float: left; margin-left: 10%; height: 60%; top: 20%;"></a>
-    <a href="index.php"><img alt="OHRS" src="images/logo-blue.png" style="float: right; margin-right: 10%; height: 30%; top: 35%;"></a>
+    <a href="index.php"><img id="left-logo" alt="logo" src="images/fox.png"></a>
+    <a href="index.php"><img id="right-logo" alt="OHRS" src="images/logo-blue.png"></a>
   </div>
 
   <nav class="navbar navbar-default navbar-static-top">
