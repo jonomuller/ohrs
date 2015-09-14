@@ -9,10 +9,32 @@ $(function() {
     if ("/" + $(this).attr('href')  ===  path) {
       $(this).parent().addClass('active');
     } else {
-      $(this).parent().removeClass('active');
+      // $(this).parent().removeClass('active');
     }
   });
 });
+
+
+// navbar resizer
+// $(window).resize(function () {
+//     navResizer();
+// });
+//
+// // On load, initially, make sure to set the size.
+// navResizer();
+//
+// function navResizer() {
+//     var $li_w = 0;
+//     var $ul_w = $(".navbar-nav").innerWidth();
+//
+//     $( ".navbar-nav li" ).each(function( index ) {
+//         $li_w += $(this).innerWidth();
+//     });
+//
+//     var li_margin = Math.floor(($ul_w-$li_w)/9) + 0.2;
+//     $(".navbar-nav li").not("#first-link").css("margin-left",li_margin);
+//     $("p.note").text( "Widths: ul.nav: " + $ul_w + " all li: " + $li_w + " Left margin: " + li_margin);
+// }
 
 // sticky sidebar
 $(function(){ // document ready

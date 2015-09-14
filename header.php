@@ -31,7 +31,7 @@
       <div id="navbar" class="collapse navbar-collapse">
 
         <ul id="top-navbar" class="nav navbar-nav">
-          <li id="first-link" class="active"><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
+          <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="/news/">News</a></li>
           <li><a href="events.php">Events</a></li>
