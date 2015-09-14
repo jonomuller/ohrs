@@ -39,7 +39,7 @@
           <li><a href="members.php">Members</a></li>
           <li><a href="sponsors.php">Sponsors</a></li>
           <li><a href="join-us.php">Join us</a></li>
-          <li><a href="contact.php">Contact us</a></li>
+          <li><a href="contact-us.php">Contact us</a></li>
           <li><a href="subscribe.php">Subscribe</a></li>
         </ul>
 
