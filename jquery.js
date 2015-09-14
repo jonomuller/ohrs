@@ -1,3 +1,19 @@
+// makes current page in navbar active
+$(function() {
+  $('.navbar-nav li a').each(function() {
+    var path = window.location.pathname;
+
+    if (path == "/") {
+      $(".navbar-nav #first-link").addClass('active');
+    }
+    if ("/" + $(this).attr('href')  ===  path) {
+      $(this).parent().addClass('active');
+    } else {
+      $(this).parent().removeClass('active');
+    }
+  });
+});
+
 // sticky sidebar
 $(function(){ // document ready
 
@@ -86,9 +102,9 @@ $(window).scroll(function(){
    }
 });
 
-$(function() {
-  $('[href=#' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
+// $(function() {
+//   $('[href=#' + location.pathname.split("/")[1] + '"]').addClass('active');
+// });
 
 
 /*
