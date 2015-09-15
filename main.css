@@ -22,11 +22,17 @@
 }
 
 #mobile-banner {
-  padding: 30px;
+  width: 70%;
 }
 
 #mobile-banner > a > img {
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+    padding-top:20px;
+  }
 }
 
 .navbar-default {

@@ -9,14 +9,14 @@
     <a href="index.php"><img id="right-logo" alt="OHRS" src="images/logo-blue.png"></a>
   </div>
 
-  <div id="mobile-banner" class="visible-xs-block">
-    <a href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
-  </div>
-
   <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
+
+        <div id="mobile-banner" class="visible-xs-block">
+          <a class="navbar-brand" href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
+        </div>
 
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -24,10 +24,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
-        <!-- <a class="navbar-brand" href="http://ohrs.org.uk"> -->
-          <!-- <img alt="OHRS" src="images/logo-new.png" alt="OHRS"> -->
-        <!-- </a> -->
 
       </div>
 
