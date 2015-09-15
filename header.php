@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 
-  <div id="banner">
+  <div id="banner" class="hidden-xs">
     <a href="index.php"><img id="left-logo" alt="logo" src="images/fox.png"></a>
     <a href="index.php"><img id="right-logo" alt="OHRS" src="images/logo-blue.png"></a>
   </div>
