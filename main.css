@@ -21,6 +21,14 @@
   top: 35%;
 }
 
+#mobile-banner {
+  padding: 30px;
+}
+
+#mobile-banner > a > img {
+  width: 100%;
+}
+
 .navbar-default {
   background-color: #fff;
 }

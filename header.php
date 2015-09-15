@@ -9,6 +9,10 @@
     <a href="index.php"><img id="right-logo" alt="OHRS" src="images/logo-blue.png"></a>
   </div>
 
+  <div id="mobile-banner" class="visible-xs-block">
+    <a href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
+  </div>
+
   <nav class="navbar navbar-default navbar-static-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
