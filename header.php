@@ -14,11 +14,9 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
 
-        <div id="mobile-banner" class="visible-xs-block">
-          <a class="navbar-brand" href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
-        </div>
+        <a class="navbar-brand" href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
 
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -31,7 +29,7 @@
       <div id="navbar" class="collapse navbar-collapse">
 
         <ul id="top-navbar" class="nav navbar-nav">
-          <li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
+          <li id="first-link"><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="/news/">News</a></li>
           <li><a href="events.php">Events</a></li>
@@ -39,8 +37,8 @@
           <li><a href="members.php">Members</a></li>
           <li><a href="sponsors.php">Sponsors</a></li>
           <li><a href="join-us.php">Join us</a></li>
-          <li><a href="contact-us.php">Contact us</a></li>
-          <li><a href="subscribe.php">Subscribe</a></li>
+          <!-- <li><a href="contact-us.php">Contact us</a></li>
+          <li><a href="subscribe.php">Subscribe</a></li> -->
         </ul>
 
       </div><!-- /.navbar-collapse -->

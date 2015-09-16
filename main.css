@@ -21,12 +21,18 @@
   top: 35%;
 }
 
-#mobile-banner {
-  width: 70%;
+.navbar-brand {
+  padding-top: 18px;
+  padding-bottom: 14px;
+  width: 75%;
 }
 
-#mobile-banner > a > img {
-  height: 100%;
+.navbar-brand > img {
+  height: 18px;
+}
+
+#btn:hover {
+    background: #fff;
 }
 
 @media (max-width: 767px) {
