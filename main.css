@@ -179,12 +179,15 @@ html, body {
   width:100%;
 }
 
-
-
-
 #constitution-body {
-  padding-bottom: 40%;
+  /*padding-bottom: 40%;*/
   line-height: 25px;
+}
+
+@media (min-width: 1200px) {
+  #constitution-body {
+    padding-bottom: 40%;
+  }
 }
 
 .affix-top,.affix{
@@ -241,7 +244,7 @@ img.profile-pic {
   border: 5px solid #eee;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 979px) {
   img.profile-pic {
     display: block;
     margin-left: auto;

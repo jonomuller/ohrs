@@ -1,5 +1,5 @@
 <header>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
@@ -14,7 +14,7 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
 
-        <a class="navbar-brand" href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
+        <a class="navbar-brand visible-xs-block" href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
 
         <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
