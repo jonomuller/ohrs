@@ -9,21 +9,46 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-9">
-
+        <div class="col-md-9 col-xs-12">
+          <h2>Join the society</h2>
+          <p>If you would like to join the society, please fill out the form below.</p>
+          <form id="join-us-form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="first name">
+            </div>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="last name">
+            </div>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="email">
+            </div>
+            <div class="input-group">
+              <input type="number" class="form-control" placeholder="bod card number">
+            </div>
+            <button type="join" class="btn btn-default">Join us</button>
+          </form>
         </div>
-        <div class="col-md-3">
-          <div id="contact">
-            <h3>Contact us</h3>
-            <a href="mailto:flora.scorer@lmh.ox.ac.uk">flora.scorer@lmh.ox.ac.uk</a>
-            <a href="mailto:name@example.com">name@example.com</a>
+        <div class="col-md-3 col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <h3>Contact us</h3>
+              <p><a href="mailto:flora.scorer@lmh.ox.ac.uk">flora.scorer@lmh.ox.ac.uk</a></p>
+              <p><a href="mailto:name@example.com">name@example.com</a></p>
+            </div>
           </div>
 
-          <h3>Subscribe to our newsletter</h3>
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="email address" aria-describedby="basic-addon1">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <h3>Subscribe to our newsletter</h3>
+              <form id="subscribe-form">
+                <div class="input-group">
+                  <input id="subscribe-email" type="email" class="form-control" placeholder="email address">
+                </div>
+                <button type="submit" class="btn btn-default">Subscribe</button>
+                <label for="subscribe-email"></label>
+              </form>
+            </div>
           </div>
-          <button type="button" class="btn btn-default">Subscribe</button>
         </div>
       </div>
 

@@ -31,7 +31,7 @@
   height: 18px;
 }
 
-#btn:hover {
+#navbar-btn:hover {
     background: #fff;
 }
 
@@ -61,13 +61,13 @@
   margin: 30px 10% 0 10%;
   border: 0;
   border-radius: 0;
-  border-top: 8px solid #6699CC;
+  border-top: 7px solid #3284BF;
 }
 
 /* navbar on mobile */
 @media (max-width: 767px) {
   #top-navbar > li {
-    border-left: 5px solid #6699CC;
+    border-left: 5px solid #3284BF;
   }
 
   #top-navbar > li.active {
@@ -85,8 +85,8 @@
 
   @media (max-width: 1199px) {
     #top-navbar > li {
-      padding-left: 1.8%;
-      padding-right: 1.8%;
+      padding-left: 1.5%;
+      padding-right: 1.5%;
     }
   }
 
@@ -101,7 +101,7 @@
     float: none;
     display: table-cell;
     text-align: center;
-    border-bottom: 8px solid #6699CC;
+    border-bottom: 7px solid #3284BF;
   }
 
   #top-navbar > li > a {
@@ -112,14 +112,14 @@
   }
 
   #top-navbar > li.active {
-    border-bottom: 8px solid #002147;
+    border-bottom: 7px solid #002147;
   }
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #000;
+  /*color: #000;*/
   background-color: #fff;
   /*padding: 0;*/
   /*border-bottom: 5px solid #002147;*/
@@ -174,7 +174,7 @@ html, body {
 }
 
 #sidebar li {
-  border-left: 8px solid #6699CC;
+  border-left: 8px solid #3284BF;
   margin: 0;
 }
 
@@ -232,25 +232,45 @@ img.profile-pic {
   /*margin-top: 10px;*/
 }
 
-h3 {
+h2, h3 {
   padding-bottom: 20px;
   border-bottom: 1px solid #002147;
   margin-bottom: 30px;
 }
 
-#contact {
-  padding-bottom: 40px;
+h2 {
+  padding-bottom: 13px;
 }
 
 .input-group {
   width: 100%;
   padding-bottom: 10px;
+  /*height: 20px;*/
+}
+
+.form-control {
+  height: 42px;
+  width: 100%;
+  /*padding-bottom: 10px;*/
 }
 
 .btn {
   width: 100%;
   border-radius: 0;
-  background-color: #6699cc;
+  background-color: #3284BF;
   border-color: #002147;
   color: #fff;
+  padding: 10px 0 10px 0;
+}
+
+/*need to fix*/
+.btn:hover,
+.btn.active {
+  background-color: #276897;
+  color: #fff;
+  border-color: #002147;
+}
+
+[class*="col-"] {
+  padding-bottom: 40px;
 }

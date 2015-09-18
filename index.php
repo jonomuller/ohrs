@@ -10,7 +10,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-8">
-					<h1>Oxford Human Rights Society</h1>
+					<h2>Oxford Human Rights Society</h2>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing
 					elit. Aenean commodo ligula eget dolor. Aenean massa
 					<strong>strong</strong>. Cum sociis natoque penatibus
@@ -72,7 +72,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<?php require_once('footer.php'); ?>
 	</body>
 </html>

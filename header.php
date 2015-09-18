@@ -16,7 +16,7 @@
 
         <a class="navbar-brand visible-xs-block" href="index.php"><img alt="logo" src="images/logo-full-new.png"></a>
 
-        <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <button id="navbar-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
