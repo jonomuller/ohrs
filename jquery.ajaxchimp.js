@@ -69,10 +69,12 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                         $('.alert').removeClass('alert-danger');
                         $('.alert').addClass('alert-success');
                         button.html("&#10003 Subscribed").show();
-                        msg = 'We have sent a confirmation email to ' + email.toString();
+                        msg = 'We have sent a confirmation email to ' + email.val();
                         label.removeClass('error').addClass('valid');
                         email.removeClass('error').addClass('valid');
                     } else {
+                        $('.alert').removeClass('alert-success');
+                        $('.alert').addClass('alert-danger');
                         email.removeClass('valid').addClass('error');
                         label.removeClass('valid').addClass('error');
                         var index = -1;
@@ -99,6 +101,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
 
                     $('.alert').show();
                     email.val('');
+                    button.html("Subscribe").delay(5000).show();
 
                     // Translate and display message
                     if (
