@@ -42,10 +42,13 @@
               <h3>Subscribe to our newsletter</h3>
               <form id="subscribe-form">
                 <div class="input-group">
-                  <input id="subscribe-email" type="email" class="form-control" placeholder="email address">
+                  <input id="subscribe-email" type="email" class="form-control" placeholder="Email address">
+                </div>
+                <div class="alert alert-danger alert-dissmissable">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <label for="subscribe-email"></label>
                 </div>
                 <button type="submit" class="btn btn-default">Subscribe</button>
-                <label for="subscribe-email"></label>
               </form>
             </div>
           </div>

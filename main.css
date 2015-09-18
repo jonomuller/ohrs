@@ -238,6 +238,7 @@ h2, h3 {
   margin-bottom: 30px;
 }
 
+/*to align lines in main and sidebar*/
 h2 {
   padding-bottom: 13px;
 }
@@ -251,6 +252,7 @@ h2 {
 .form-control {
   height: 42px;
   width: 100%;
+  /*outline-color: #ff0000;*/
   /*padding-bottom: 10px;*/
 }
 
@@ -273,4 +275,27 @@ h2 {
 
 [class*="col-"] {
   padding-bottom: 40px;
+}
+
+alert {
+  margin-bottom: 0;
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.alert-danger {
+  display: none;
+  background-color: #f04124;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+  width: 90%;
+  font-weight: normal;
 }

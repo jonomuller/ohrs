@@ -66,8 +66,10 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                 var msg;
                 function successCallback(resp) {
                     if (resp.result === 'success') {
-                        button.html("&#10003 Subscribed").show(2000);
-                        msg = 'We have sent you a confirmation email';
+                        $('.alert').removeClass('alert-danger');
+                        $('.alert').addClass('alert-success');
+                        button.html("&#10003 Subscribed").show();
+                        msg = 'We have sent a confirmation email to ' + email.toString();
                         label.removeClass('error').addClass('valid');
                         email.removeClass('error').addClass('valid');
                     } else {
@@ -94,6 +96,9 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                             msg = resp.msg;
                         }
                     }
+
+                    $('.alert').show();
+                    email.val('');
 
                     // Translate and display message
                     if (
@@ -139,7 +144,8 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                 ) {
                     submitMsg = $.ajaxChimp.translations[settings.language]['submit'];
                 }
-                label.html(submitMsg).show(2000);
+
+                // label.html(submitMsg).show(2000);
 
                 return false;
             });
@@ -147,8 +153,3 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
         return this;
     };
 })(jQuery);
-
-
-$('#subscribe-form').ajaxChimp({
-  url: 'http://ohrs.us11.list-manage.com/subscribe/post?u=0325897a8494aa5e44f729b85&amp;id=79376b972a'
-});
