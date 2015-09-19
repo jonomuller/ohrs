@@ -15,6 +15,15 @@ $(function() {
 });
 
 
+$(function(){
+    $("[data-hide]").on("click", function(){
+        $("." + $(this).attr("data-hide")).hide();
+        // -or-, see below
+        // $(this).closest("." + $(this).attr("data-hide")).hide();
+    });
+});
+
+
 $('#subscribe-form').ajaxChimp({
   url: 'http://ohrs.us11.list-manage.com/subscribe/post?u=0325897a8494aa5e44f729b85&amp;id=79376b972a'
 });

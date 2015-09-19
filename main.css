@@ -277,8 +277,9 @@ h2 {
   padding-bottom: 40px;
 }
 
-alert {
-  margin-bottom: 0;
+.alert {
+  display: none;
+  margin-bottom: 10px;
 }
 
 .alert-success {
@@ -286,7 +287,6 @@ alert {
 }
 
 .alert-danger {
-  display: none;
   background-color: #f04124;
 }
 
@@ -298,4 +298,5 @@ label {
   color: #fff;
   width: 90%;
   font-weight: normal;
+  margin: 0;
 }
