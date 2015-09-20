@@ -48,7 +48,7 @@
                   <button type="button" class="close" data-hide="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                   <label for="subscribe-email"></label>
                 </div>
-                <button type="submit" class="btn btn-default">Subscribe</button>
+                <button id="submit-button" type="submit" class="btn btn-default">Subscribe</button>
               </form>
             </div>
           </div>

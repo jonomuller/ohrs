@@ -267,7 +267,10 @@ h2 {
 
 /*need to fix*/
 .btn:hover,
-.btn.active {
+.btn:active,
+.btn:focus,
+.btn:target,
+.btn:active:focus {
   background-color: #276897;
   color: #fff;
   border-color: #002147;
@@ -283,7 +286,7 @@ h2 {
 }
 
 .alert-success {
-  background-color: green;
+  background-color: #00b300;
 }
 
 .alert-danger {
