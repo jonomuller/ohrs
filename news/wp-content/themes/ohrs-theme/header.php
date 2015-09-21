@@ -19,7 +19,7 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
 
-        <a class="navbar-brand visible-xs-block" href="../index.php"><img alt="logo" src="/images/logo-full-new.png"></a>
+        <a class="navbar-brand visible-xs-block" href="../index.php"><img alt="logo" src="/images/logo-full.png"></a>
 
         <button id="navbar-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -36,7 +36,7 @@
         <ul id="top-navbar" class="nav navbar-nav">
           <li id="first-link"><a href="../index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
           <li><a href="../about.php">About</a></li>
-          <li class="active"><a href="index.php">News</a></li>
+          <li class="active"><a href="http://192.168.1.66:8888/news">News</a></li>
           <li><a href="../events.php">Events</a></li>
           <li><a href="../constitution.php">Constitution</a></li>
           <li><a href="../members.php">Members</a></li>

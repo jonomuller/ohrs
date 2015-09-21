@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-xs-12 col-md-9">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-      <h2><?php the_title(); ?></h2>
+      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
       <h4><?php the_time('F jS, Y') ?></h4>
       <p><?php the_content(__('(more...)')); ?></p>
       <hr> <?php endwhile; else: ?>

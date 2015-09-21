@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
 
   <div id="banner" class="hidden-xs">
     <a href="index.php"><img id="left-logo" alt="logo" src="/images/fox.png"></a>
@@ -16,7 +16,7 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
 
-        <a class="navbar-brand visible-xs-block" href="/index.php"><img alt="logo" src="/images/logo-full-new.png"></a>
+        <a class="navbar-brand visible-xs-block" href="/index.php"><img alt="logo" src="/images/logo-full.png"></a>
 
         <button id="navbar-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
