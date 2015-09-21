@@ -23,7 +23,7 @@ $(function(){
     });
 });
 
-
+// Change subscribe button back to original value
 $(function(){
   $('#alert-button').click(function(){
     var button = $('#subscribe-form').find('button[type=submit]');

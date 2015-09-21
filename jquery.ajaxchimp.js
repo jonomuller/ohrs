@@ -104,6 +104,7 @@ var spinner_div = $('#button-area').get(0);
                         $('.alert').removeClass('alert-success');
                         $('.alert').addClass('alert-danger');
                         email.css('border-color', '#f04124');
+                        button.html("Subscribe");
                         email.removeClass('valid').addClass('error');
                         label.removeClass('valid').addClass('error');
                         var index = -1;

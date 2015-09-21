@@ -12,4 +12,7 @@
 <script type="text/javascript" src="jquery.ajaxchimp.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
 
+
+<?php wp_footer(); ?>
+
 </html>

@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 	<head>
 		<title>OHRS</title>
 		<link rel="icon" type="image/png" href="images/favicon.ico"/>
@@ -75,4 +74,3 @@
 
 		<?php require_once('footer.php'); ?>
 	</body>
-</html>
