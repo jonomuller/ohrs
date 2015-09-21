@@ -6,7 +6,7 @@ $(function() {
     if (path == "/") {
       $(".navbar-nav #first-link").addClass('active');
     }
-    if ($(this).attr('href')  ===  path) {
+    if ("/" + $(this).attr('href')  ===  path) {
       $(this).parent().addClass('active');
     } else {
       // $(this).parent().removeClass('active');

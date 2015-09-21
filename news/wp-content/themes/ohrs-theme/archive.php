@@ -1,7 +1,12 @@
+<head>
+  <title>OHRS</title>
+  <!-- <link rel="icon" type="image/png" href="images/favicon.ico"/> -->
+</head>
+
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
 
-<div id="main">
+<!-- <div id="main"> -->
   <?php if (have_posts()) : ?>
 
   <?php if (is_category() { ?>)
@@ -45,6 +50,6 @@
     <p><a href="<?php echo get_option('home'); ?>">Return to the homepage</a></p>
 
   <?php endif; ?>
-</div>
+<!-- </div> -->
 
 <?php get_footer(); ?>
