@@ -45,10 +45,12 @@
                   <input id="subscribe-email" type="email" class="form-control" placeholder="Email address">
                 </div>
                 <div class="alert alert-danger alert-dissmissable">
-                  <button type="button" class="close" data-hide="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <button id="alert-button" type="button" class="close" data-hide="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                   <label for="subscribe-email"></label>
                 </div>
-                <button id="submit-button" type="submit" class="btn btn-default">Subscribe</button>
+                <div id="button-area">
+                  <button id="submit-button" type="submit" data-hide="alert" class="btn btn-default">Subscribe</button>
+                </div>
               </form>
             </div>
           </div>

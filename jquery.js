@@ -14,48 +14,6 @@ $(function() {
   });
 });
 
-var opts = {
-  lines: 11, // The number of lines to draw
-  length: 15, // The length of each line
-  width: 10, // The line thickness
-  radius: 30, // The radius of the inner circle
-  corners: 1, // Corner roundness (0..1)
-  rotate: 0, // The rotation offset
-  direction: 1, // 1: clockwise, -1: counterclockwise
-  color: '#000', // #rgb or #rrggbb
-  speed: 0.6, // Rounds per second
-  trail: 60, // Afterglow percentage
-  shadow: false, // Whether to render a shadow
-  hwaccel: false, // Whether to use hardware acceleration
-  className: 'spinner', // The CSS class to assign to the spinner
-  zIndex: 2e9, // The z-index (defaults to 2000000000)
-  top: 'auto', // Top position relative to parent in px
-  left: 'auto' // Left position relative to parent in px
-};
-
-var spinner = null;
-var spinner_div = 0;
-
-$(document).ready(function() {
-
-  spinner_div = $('#submit-button').get(0);
-
-  $("#submit-button").click(function(e) {
-    e.preventDefault();
-    if(spinner == null) {
-      spinner = new Spinner(opts).spin(spinner_div);
-    } else {
-      spinner.spin(spinner_div);
-    }
-  });
-
-  $("#button2").click(function(e) {
-    e.preventDefault();
-    spinner.stop(spinner_div);
-  });
-
-});
-
 // allows alert to be shown multiple times
 $(function(){
     $("[data-hide]").on("click", function(){
@@ -63,6 +21,21 @@ $(function(){
         // -or-, see below
         // $(this).closest("." + $(this).attr("data-hide")).hide();
     });
+});
+
+
+$(function(){
+  $('#alert-button').click(function(){
+    var button = $('#subscribe-form').find('button[type=submit]');
+    button.html('Subscribe');
+  });
+});
+
+$(function(){
+  $('#subscribe-email').click(function(){
+    var button = $('#subscribe-form').find('button[type=submit]');
+    button.html('Subscribe');
+  });
 });
 
 // subscribes user to MailChimp using Ajax

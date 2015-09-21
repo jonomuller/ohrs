@@ -25,6 +25,32 @@ To get the mailchimp JSONP url (undocumented), change 'post?' to 'post-json?' an
 For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsiufdba6f8802&id=4djhfdsh99f&c=?',
 */
 
+var opts = {
+  lines: 13 // The number of lines to draw
+, length: 28 // The length of each line
+, width: 14 // The line thickness
+, radius: 42 // The radius of the inner circle
+, scale: 0.1 // Scales overall size of the spinner
+, corners: 1 // Corner roundness (0..1)
+, color: '#fff' // #rgb or #rrggbb or array of colors
+, opacity: 0.25 // Opacity of the lines
+, rotate: 0 // The rotation offset
+, direction: 1 // 1: clockwise, -1: counterclockwise
+, speed: 1 // Rounds per second
+, trail: 60 // Afterglow percentage
+, fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+, zIndex: 2e9 // The z-index (defaults to 2000000000)
+, className: 'spinner' // The CSS class to assign to the spinner
+, shadow: false // Whether to render a shadow
+, hwaccel: false // Whether to use hardware acceleration
+, position: 'absolute' // Element positioning
+, top: '76.1%' // Top position relative to parent
+, left: '87.2%' // Left position relative to parent
+}
+
+var spinner = null;
+var spinner_div = $('#button-area').get(0);
+
 (function ($) {
     'use strict';
 
@@ -69,8 +95,9 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                         $('.alert').removeClass('alert-danger');
                         $('.alert').addClass('alert-success');
                         email.css('border-color', '#ccc');
-                        // button.html("&#10003 Subscribed").show();
+                        button.html("&#10003 Subscribed");
                         msg = 'We have sent a confirmation email to ' + email.val();
+                        email.val('');
                         label.removeClass('error').addClass('valid');
                         email.removeClass('error').addClass('valid');
                     } else {
@@ -101,10 +128,8 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                         }
                     }
 
-                    // spinner.stop();
+                    spinner.stop(spinner_div);
                     $('.alert').show();
-                    email.val('');
-                    // button.html("Subscribe").delay(5000).show();
 
                     // Translate and display message
                     if (
@@ -151,6 +176,11 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                     submitMsg = $.ajaxChimp.translations[settings.language]['submit'];
                 }
 
+                if(spinner == null) {
+                  spinner = new Spinner(opts).spin(spinner_div);
+                } else {
+                  spinner.spin(spinner_div);
+                }
                 // label.html(submitMsg).show(2000);
 
                 return false;
