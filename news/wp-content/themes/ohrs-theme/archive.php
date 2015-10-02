@@ -1,6 +1,5 @@
 <head>
   <title>OHRS</title>
-  <!-- <link rel="icon" type="image/png" href="images/favicon.ico"/> -->
 </head>
 
 <?php get_header(); ?>

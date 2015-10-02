@@ -1,4 +1,14 @@
+/*
+Theme Name: OHRS
+Theme URI: http://ohrs.org.uk/news
+Description: OHRS Wordpress Theme
+Version: 1
+Author: Jonathan Muller
+Author URI: http://github.com/jonomuller
+*/
+
 @import url('css/bootstrap.min.css');
+
 #banner {
   /*background-color: #002147;*/
   height: 100px;
@@ -149,88 +159,25 @@ html, body {
   width:100%;
 }
 
-#constitution-body {
-  /*padding-bottom: 40%;*/
-  line-height: 25px;
+.post-header > h5 {
+  float: right;
+  margin-right: 1%;
+  margin-top: 13px;
+  /*position: relative;
+  bottom: 0%;*/
 }
 
-@media (min-width: 1200px) {
-  #constitution-body {
-    padding-bottom: 40%;
-  }
+.post-content {
+  padding-bottom: 50px;
 }
 
-.affix-top,.affix{
-	position: static;
+a {
+  color: #002147;
 }
 
-#leftCol {
-  padding: 0;
-  /*margin-right: 10px;*/
-}
-
-#sidebar {
-  width: 180px;
-  padding-right: 20px;
-}
-
-#sidebar li {
-  border-left: 8px solid #3284BF;
-  margin: 0;
-}
-
-#sidebar li.active {
-  border-left: 8px solid #002147;
-}
-
-#sidebar li > a {
-  margin: 0;
-}
-
-#sidebar li > a:hover,
-#sidebar li > a:focus {
-  border-left: 0px;
-  /*border-left: 5px solid #002147;*/
-  background-color: #fff;
-}
-
-@media (min-width: 992px) {
-  #sidebar.affix-top {
-    position: static;
-  	margin-top: 30px;
-  	width: 100px;
-  }
-
-  #sidebar.affix {
-    position: fixed;
-    top: 70px;
-    width: 100px;
-  }
-}
-
-img.profile-pic {
-  width: 200px;
-  height: 200px;
-  border: 5px solid #eee;
-}
-
-@media (max-width: 991px) {
-  img.profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .members-body h3 {
-    text-align: center;
-  }
-}
-
-.members-body {
-  padding: 25px 0 25px 0;
-}
-
-.members-body h3 {
-  /*margin-top: 10px;*/
+a:hover {
+  color: #002147;
+  text-decoration: none;
 }
 
 h2, h3 {
@@ -244,63 +191,7 @@ h2 {
   padding-bottom: 13px;
 }
 
-.input-group {
-  width: 100%;
-  padding-bottom: 10px;
-  /*height: 20px;*/
-}
-
-.form-control {
-  height: 42px;
-  width: 100%;
-  /*outline-color: #ff0000;*/
-  /*padding-bottom: 10px;*/
-}
-
-.btn {
-  width: 100%;
-  border-radius: 0;
-  background-color: #3284BF;
-  border-color: #002147;
-  color: #fff;
-  padding: 10px 0 10px 0;
-}
-
-/*need to fix*/
-.btn:hover,
-.btn:active,
-.btn:focus,
-.btn:target,
-.btn:active:focus {
-  background-color: #276897;
-  color: #fff;
-  border-color: #002147;
-}
 
 [class*="col-"] {
   padding-bottom: 40px;
-}
-
-.alert {
-  display: none;
-  margin-bottom: 10px;
-}
-
-.alert-success {
-  background-color: #009a00;
-}
-
-.alert-danger {
-  background-color: #f04124;
-}
-
-.close:hover {
-  color: #fff;
-}
-
-label {
-  color: #fff;
-  width: 90%;
-  font-weight: normal;
-  margin: 0;
 }

@@ -10,10 +10,10 @@
 
       <div class="row members-body">
         <div class="col-md-3 col-xs-12">
-          <img class="img-circle profile-pic" src="images/steve.jpg">
+          <img class="img-circle profile-pic" src="images/helena-profile.jpg">
         </div>
         <div class="col-md-9 col-xs-12">
-          <h3>Flora Scorer</h3>
+          <h3>Helena Khullar - President, Christ Church</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
           elit. Aenean commodo ligula eget dolor. Aenean massa
           <strong>strong</strong>. Cum sociis natoque penatibus
@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="col-md-9 col-xs-12">
-          <h3>Steven Spisto</h3>
+          <h3>Steven Spisto - Treasurer, St Benet's Hall</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
           elit. Aenean commodo ligula eget dolor. Aenean massa
           <strong>strong</strong>. Cum sociis natoque penatibus
@@ -67,11 +67,11 @@
       <div class="row members-body">
         <div class="col-md-3 col-xs-12">
           <div class="profile-pic">
-            <img class="img-circle profile-pic" src="images/fox.png">
+            <img class="img-circle profile-pic" src="images/flora-profile.jpg">
           </div>
         </div>
         <div class="col-md-9 col-xs-12">
-          <h3>Firstname Lastname</h3>
+          <h3>Flora Scorer - Secretary, Lady Margaret Hall</h3>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing
           elit. Aenean commodo ligula eget dolor. Aenean massa
           <strong>strong</strong>. Cum sociis natoque penatibus

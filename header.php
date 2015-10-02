@@ -32,11 +32,10 @@
 
         <ul id="top-navbar" class="nav navbar-nav">
           <li id="first-link"><a href="/index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
-          <li><a href="/about.php">About</a></li>
           <li><a href="/news/">News</a></li>
           <li><a href="/events.php">Events</a></li>
           <li><a href="/constitution.php">Constitution</a></li>
-          <li><a href="/members.php">Members</a></li>
+          <li><a href="/committee.php">Committee</a></li>
           <li><a href="/sponsors.php">Sponsors</a></li>
           <li><a href="/join-us.php">Join us</a></li>
           <!-- <li><a href="contact-us.php">Contact us</a></li>

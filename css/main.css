@@ -174,12 +174,12 @@ html, body {
 }
 
 #sidebar li {
-  border-left: 8px solid #3284BF;
+  border-left: 7px solid #3284BF;
   margin: 0;
 }
 
 #sidebar li.active {
-  border-left: 8px solid #002147;
+  border-left: 7px solid #002147;
 }
 
 #sidebar li > a {
